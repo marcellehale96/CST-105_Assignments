@@ -9,7 +9,7 @@ package computersumusingconsoleinput;
  *
  * @author Marcelle Hale
  */
-import java.util.Scanner; //Scannefr is in the java.util package
+import java.util.Scanner; //Scanner is in the java.util package
 
 public class ComputerSumUsingConsoleInput {
      /**
