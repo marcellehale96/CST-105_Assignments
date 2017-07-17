@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package computersumusingconsoleinput;
+
+/**
+ *
+ * @author Marcelle Hale
+ */
+import java.util.Scanner; //Scannefr is in the java.util package
+
+public class ComputerSumUsingConsoleInput {
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int m,n,sum = 0; 
+
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
+        
+        //Prompt the user to enter a interger
+        System.out.print("Enter a positive five digit integer: ");
+        m = input.nextInt();
+        while(m > 0)
+        {
+            n= m % 10;
+            sum = sum + n;
+            m = m / 10;
+        }
+        System.out.println("Sum of Digits:" + sum);
+    }
+}
