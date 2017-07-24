@@ -1,0 +1,75 @@
+//My name is Marcelle Hale and this is my project.
+
+
+
+package guessinggame;
+
+
+
+import java.util.Scanner;
+
+import java.util.Random;
+
+        
+
+
+
+public class GuessingGame {
+
+    public static void main(String[] args) {
+
+        //Declare variables
+
+        Random randomNumber = new Random();
+
+        Scanner input = new Scanner(System.in);
+
+        int value = randomNumber.nextInt(10000);
+
+        int numberofTries = 0;
+
+        int success = 0;
+
+        int guess = 0;
+
+        
+
+        while (success == 0)
+
+        {
+
+            System.out.println("Enter a value between 1 - 10,000: ");
+
+            guess = input.nextInt();
+
+            numberofTries++;
+
+            
+
+            if (guess == value) {
+
+                success++;
+
+                System.out.println("You WIN! Your number of tries was: " + 
+
+                        numberofTries );
+
+            }
+
+            else if (guess < value ) {
+
+                System.out.println("Sorry your value is too low");
+
+            }
+
+            else if (guess > value) {
+
+                System.out.println("Sorry your value is too high");
+
+                        }
+
+           }
+
+    }
+
+  }
