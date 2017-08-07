@@ -1,0 +1,77 @@
+// My name is Marcelle Hale and this is my project
+package milestone2;
+
+public class NFL {
+    int defense = 0; // Default defense a player has is 0
+    int offense = 0; // Default offense a player has is 0
+    int fieldgoals = 0; // Default fieldgoals a player has is 0
+    int catches = 0; // Default catches a player has is 0
+    int sacks = 0; // Default sacks a player has is 0
+    int fumbles = 0; // Default fumbles a player has is 0
+    int touchdowns = 0; // Default touchdowns a player has is 0
+    int interceptions = 0; // Default interceptions a player has is 0
+    int runbacks = 0; // Default runbacks a player has is 0
+    int penalties = 0; // Default penalties a player has is 0
+    
+    public NFL();
+}
+public void player {
+    if (player)
+    System.out.println(catches + touchdowns + runbacks + penalties);
+}
+public void defensiveplayer {
+    if (defensiveplayer)
+    System.out.println(defense + sacks);
+}
+public void offensiveplayer {
+    if (offensiveplayer)
+    System.out.println(offensive + fieldgoals + fumbles +);
+}
+public void quaterback {
+    if (offensiveplayer)
+    System.out.println(interceptions);
+}
+public void setDefense (int newDefense) {
+            if (defensiveplayer && newDefense >= 0) {
+            defense = newDefense1
+    }
+public void setOffense (int newOffense) {
+            if (offensiveplayer && Ofense >= 0) {
+            offense = newOffense1
+    }
+public void setFieldgoals (int newFieldgoals) {
+            if (offensiveplayer && newFieldhoals >= 0) {
+            fieldgoals  = newFieldgoals1
+    }
+public void setCatches (int newCatches) {
+            if (player && newCatches >= 0) {
+            catches = newCatches1
+    }
+public void setSacks (int newSacks) {
+            if (defensive player && newSacks >= 0) {
+            sacks = newSacks1
+    }
+public void setFumbles (int newFumbles) {
+            if (offensiveplayer && newFumbles >= 0) {
+            fumbles = newFumbles1
+    }
+public void setTouchdowns (int newTouchdowns) {
+            if (player && newTouchdowns >= 0) {
+            touchdowns = newTouchdowns1
+    }
+public void setInterceptions (int newInterceptions) {
+            if (quaterback && newInterceptions >= 0) {
+            interceptions = newInterctions1
+    }
+public void setRunbacks (int newRunbacks) {
+            if (player && newRunbacks >= 0) {
+            runbacks = newRunbacks1
+    }
+public void setPenalties (int newPenalties) {
+            if (player && newPenalties >= 0) {
+            penalties = newPenalties1
+    }
+
+
+    
+}
